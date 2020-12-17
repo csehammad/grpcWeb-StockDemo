@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "StockServices.Protos";
+
+package stock;
+ 
+service Stock {
+  rpc GetAllProducts(Empty) returns (stream Product);
+  rpc AddProduct (Product) returns (Result);
+}
+  
+message Empty {}
+
+message Result
+{
+	bool status =1;
+	string msg=2;
+}
+
+message Product {
+  string name = 1;
+  uint32 code=2;
+  uint32 stock =3;
+   
+}
+
+ 

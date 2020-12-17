@@ -1,0 +1,51 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gRPC-Web | Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container">
+        <h3>gRPC-Web | Demo</h3>
+        <br />
+        <div>
+            <div class="form-group">
+                <label for="name">Product Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter product name ">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Product Code</label>
+                <input type="number" class="form-control" id="code" placeholder="enter product code here " min="0" max="100" step="1" value="0">
+            </div>
+
+            <button type="button" id="addProduct" class="btn btn-primary">Add Product</button>
+
+
+            <button type="button" id="getAllProducts" class="btn btn-primary">Get All Products </button>
+          
+            <div>
+                <p id="result"></p>
+            </div>
+        </div>
+        <div class="container">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Product Code</th>
+                    </tr>
+                </thead>
+                <tbody id="trProducts">
+                    <tr>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="dist/main.js"></script>
+</body>
+</html>
