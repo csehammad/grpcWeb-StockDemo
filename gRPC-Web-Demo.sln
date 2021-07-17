@@ -1,11 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockManagement", "StockService\StockManagement.csproj", "{E0A48F68-E369-42B0-984A-EFC8E93221CA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService1", "GrpcService1\GrpcService1.csproj", "{DEA99220-E463-47B6-8DEA-46203827E980}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{E0A48F68-E369-42B0-984A-EFC8E93221CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0A48F68-E369-42B0-984A-EFC8E93221CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0A48F68-E369-42B0-984A-EFC8E93221CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEA99220-E463-47B6-8DEA-46203827E980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEA99220-E463-47B6-8DEA-46203827E980}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEA99220-E463-47B6-8DEA-46203827E980}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEA99220-E463-47B6-8DEA-46203827E980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
